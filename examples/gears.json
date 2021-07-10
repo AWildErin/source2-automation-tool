@@ -1,0 +1,41 @@
+{
+    "config":
+    {        
+        "project": "gears",
+        "game": "sbox",
+
+        "build_order": 
+        [
+            
+        ]
+    },
+
+    "modules":
+    {
+        "zip":
+        {
+            "moduleclass": "SAT.Modules.Zip.ZipModule",
+            "options": 
+            {
+                "ignoreFiles": [
+                    "test",
+                    "test2",
+                    "epic",
+                    "cunt",
+                    "cock",
+                    "other words"
+                ]
+            }
+        },
+        
+        "custom":
+        {
+            "moduleclass": "SAT.Modules.CustomModule",
+            "options":
+            {
+
+            }
+        }
+
+    }
+}
